@@ -1,5 +1,5 @@
 # ProjetoRest
-Projeto RestFul com Spring Boot, H2, Swagger2 e Project Lombok
+Projeto RestFul com:
 
 - [X] Spring Boot
 - [X] H2
