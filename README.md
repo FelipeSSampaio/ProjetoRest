@@ -24,7 +24,7 @@ Caso queira colocar num servidor separado, terá que criar o Jar, War ou EAR par
 
 Nesse projeto estou usando o H2, então não é preciso instalar nada.
 
-OBS: Atenção ao fato de que o projeto está usando devtools. Ocorre que qualquer alteração no código enquanto o mesmo está rodando fará limpará o banco. Você pode definir um arquivo data.sql com inserts se quiser manter alguns dados pré-estabelecidos.
+OBS: Atenção ao fato de que o projeto está usando devtools. Ocorre que qualquer alteração no código enquanto o mesmo está rodando limpará o banco. Você pode definir um arquivo data.sql com inserts se quiser manter alguns dados pré-estabelecidos.
 
 4 - Swagger
 
@@ -77,3 +77,5 @@ Pode ser que seu eclipse fique reclamando da versão do Maven assim como o meu f
 	<maven-jar-plugin.version>3.1.1</maven-jar-plugin.version>
 </properties>
 ```
+
+Com a adição da tag maven-jar-plugin.version, o erro apresentado pelo eclipse é resolvido.
